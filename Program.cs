@@ -15,5 +15,14 @@
             #endregion
 
         }
+        #region answer Q4
+        public static void Swap<T>(ref T a, ref T b)
+        {
+            T Temp = a;
+            a = b;
+            b = Temp;
+        }
+        #endregion
+
     }
 }
