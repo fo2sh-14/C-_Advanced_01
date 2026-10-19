@@ -10,6 +10,10 @@
             // Type save, Reusable, Better performance, Cleaner Code
             #endregion
 
+            #region answer Q3
+            // multiple type parameters ==> generic class can have more than one type parameter. 
+            #endregion
+
         }
     }
 }
