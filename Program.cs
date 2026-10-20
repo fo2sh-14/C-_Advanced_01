@@ -14,7 +14,10 @@
             // multiple type parameters ==> generic class can have more than one type parameter. 
             #endregion
 
+
+
         }
+
         #region answer Q4
         public static void Swap<T>(ref T a, ref T b)
         {
@@ -29,6 +32,17 @@
         {
             return a.CompareTo(b) > 0 ? a : b; return a;
     
+        }
+        #endregion
+
+        #region answer Q6
+        // A generic interface ==> interface that uses a type parameter T,
+        // allowing it to define methods or properties that work with different data types
+        interface IRepository<T>
+        {
+            void Add(T item);
+            T Get(int id);
+            void Delete(int id);
         }
         #endregion
 
