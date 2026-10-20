@@ -14,6 +14,20 @@
             // multiple type parameters ==> generic class can have more than one type parameter. 
             #endregion
 
+            #region constraint
+
+            #region answer Q7
+            /*
+            Struct constraint ==> means that the generic type T must be a value type
+            ex:
+            class Container<T> where T : struct
+            {
+                public T Value { get; set; }
+            }
+            */
+            #endregion
+
+            #endregion
 
 
         }
