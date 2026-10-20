@@ -27,6 +27,17 @@
             */
             #endregion
 
+            #region answer Q8
+            /*
+            Class constraint ==> means that the generic type T must be a ref type
+            ex:
+            class Container<T> where T : class
+            {
+                public T Value { get; set; }
+            }
+            */
+            #endregion
+
             #endregion
 
 
