@@ -38,6 +38,20 @@
             */
             #endregion
 
+            #region answer Q9
+            /*
+            The new() constraint means that T must have a public parameterless constructor
+            ex:
+            class Factory<T> where T : new()
+            {
+                 public T Create()
+                 {
+                     return new T();
+                 }
+            } 
+            */
+            #endregion
+
             #endregion
 
 
