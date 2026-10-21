@@ -52,7 +52,14 @@
             */
             #endregion
 
+            #region answer Q10
+            // T must implement a specified interface
+
+            // class Printer<T> where T : IPrintable
             #endregion
+
+            #endregion
+
 
 
         }
