@@ -74,6 +74,17 @@
 
             #endregion
 
+            #region answer Q15 
+            // Allows using a derived type instead of a base type
+            // out is used for output
+            /*
+            interface IProducer<out T>
+            {
+               T Get();
+            }
+            */
+            #endregion
+
 
         }
 
