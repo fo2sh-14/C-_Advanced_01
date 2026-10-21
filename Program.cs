@@ -58,6 +58,13 @@
             // class Printer<T> where T : IPrintable
             #endregion
 
+            #region answer Q11 
+            // T must inherit from a specified base class.
+
+            // class Animal 
+            // class Container<T> where T : Animal
+            #endregion
+
             #endregion
 
 
