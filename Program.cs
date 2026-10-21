@@ -76,11 +76,23 @@
 
             #region answer Q15 
             // Allows using a derived type instead of a base type
-            // out is used for output
+            // out ==> is used for output
             /*
             interface IProducer<out T>
             {
                T Get();
+            }
+            */
+            #endregion
+
+            #region answer Q16
+            /*
+            Allows using a base type instead of a derived type
+            in  ==> is used for input
+
+            interface IConsumer<in T>
+            {
+               void Edit(T item);
             }
             */
             #endregion
