@@ -102,7 +102,21 @@
             // Contravariance(in): Input — Base → Derived.
             #endregion
 
+            #region answer Q18
+            // Static members are not shared across different closed constructed types
+            // ==> each unique type argument => own independent copy
+            #endregion
 
+            #region answer Q19
+            /*
+            class Container<T>
+            {
+                public T Value { get; set; }
+            }
+
+            class IntContainer : Container<int> { }
+             */
+            #endregion
         }
 
         #region answer Q4
