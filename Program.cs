@@ -67,6 +67,12 @@
 
             #endregion
 
+            #region answer Q13 
+            // int ==> 0
+            // bool ==> false
+            // Reference types ==> null
+
+            #endregion
 
 
         }
