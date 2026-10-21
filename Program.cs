@@ -97,6 +97,11 @@
             */
             #endregion
 
+            #region answer Q17
+            // Covariance(out): Output — Derived → Base.
+            // Contravariance(in): Input — Base → Derived.
+            #endregion
+
 
         }
 
